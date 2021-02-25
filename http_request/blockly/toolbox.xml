@@ -11,8 +11,8 @@
         <field name="TEXT"></field>
       </block>
     </value>
-        <value name="value_data_">
-    <block type="text">
+    <value name="value_data_">
+      <block type="text">
         <field name="TEXT"></field>
       </block>
     </value>
