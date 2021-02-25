@@ -18,6 +18,7 @@ Blockly.Blocks['http_request'] = {
         .setCheck("String")
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField("Data");
+    this.setInputsInline(true);
     this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setColour(300);
