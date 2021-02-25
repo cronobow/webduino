@@ -6,5 +6,15 @@
         <field name="TEXT">https://url</field>
       </block>
     </value>
+    <value name="value_token_">
+      <block type="text">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+        <value name="value_data_">
+    <block type="text">
+        <field name="TEXT"></field>
+      </block>
+    </value>
   </block>
  </category>

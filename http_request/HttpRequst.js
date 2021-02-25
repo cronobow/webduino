@@ -2,7 +2,7 @@
 
   'use strict';
 
-  function send_request(request_type_,input_url_)
+  function send_request(request_type_, input_url_, input_token_, input_data_)
   {
     $.ajax({
         "type": request_type_,
@@ -10,7 +10,8 @@
           "Content-Type": "application/x-www-form-urlencoded"
         },
         data: {
-          text: 'text'
+          data: input_data_,
+          token: input_token_
         },
         "url": input_url_,
         success: function(jsonp)
