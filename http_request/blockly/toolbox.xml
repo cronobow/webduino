@@ -1,0 +1,10 @@
+<category id="http_request">
+  <block type="http_request">
+    <field name="request_type_">GET</field>
+    <value name="value_url_">
+      <block type="text">
+        <field name="TEXT">https://url</field>
+      </block>
+    </value>
+  </block>
+ </category>
