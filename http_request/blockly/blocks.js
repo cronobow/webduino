@@ -16,6 +16,7 @@ Blockly.Blocks['http_request'] = {
         .appendField("Token");
     this.appendValueInput("value_data_")
         .setCheck("String")
+        .setAlign(Blockly.ALIGN_RIGHT)
         .appendField("Data");
     this.setPreviousStatement(true);
     this.setNextStatement(true);
