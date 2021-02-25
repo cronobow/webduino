@@ -10,5 +10,6 @@
   ],
   "msg": "blockly/msg",
   "blocksMsg": "blockly/msg/blocks",
-  "toolbox": "blockly/toolbox.xml"
+  "toolbox": "blockly/toolbox.xml",
+  "version": "0441"
 }
